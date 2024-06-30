@@ -1,0 +1,10 @@
+User:
+Beschreibung: 
+Der Benutzer welcher die Website benutzt
+Attribute: Name, E-Mail, Passwort
+
+Beitrag:
+Beschreibung:
+Ist der Film, etc der in Zukunft erscheinen wird
+Attribute:
+Name, Countdown, Tags
