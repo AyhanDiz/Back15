@@ -2,19 +2,17 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const cors = require('cors');
-const PORT = process.env.PORT || 8080; // Port entweder aus der Umgebungsvariable oder 8080
+const cors = require('cors'); // Hier das 'cors'-Modul einbinden
+const PORT = process.env.PORT || 8080;
 
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors()); // CORS aktivieren
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Routes
-const beitragRouter = require('./routes/beitrag'); // Beispielroute, entsprechend deiner Implementierung anpassen
-app.use('/api/beiträge', beitragRouter);
+// Weitere Konfiguration und Routen...
 
 // Start server
 app.listen(PORT, () => {
