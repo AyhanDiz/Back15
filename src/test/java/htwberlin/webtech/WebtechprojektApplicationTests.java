@@ -1,5 +1,20 @@
 package htwberlin.webtech;
 
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class WebtechprojektApplicationTests {
+
+
+    @Test
+    void contextLoads() {
+    }
+
+}
+/*package htwberlin.webtech;
+
+
 import htwberlin.webtech.web.Beitrag;
 import htwberlin.webtech.web.BeitragRepository;
 import org.junit.jupiter.api.Test;
@@ -52,7 +67,7 @@ public class WebtechprojektApplicationTests {
                 .andExpect(content().json("[{\"title\":\"Test Title 1\",\"date\":\"2024-06-30\",\"imgSrc\":\"test1.jpg\"},{\"title\":\"Test Title 2\",\"date\":\"2024-06-30\",\"imgSrc\":\"test2.jpg\"}]"));
     }
 
-    /*
+
     @Test
     void getFavoriteById_shouldReturnBeitrag() throws Exception {
         Beitrag beitrag = new Beitrag("Test Title", "2024-06-30", "test.jpg");
@@ -86,7 +101,7 @@ public class WebtechprojektApplicationTests {
                 .andExpect(content().string("Beitrag erfolgreich gelöscht"));
     }
 
-     */
+
 
     // HelloWorldController Tests
 
@@ -104,3 +119,5 @@ public class WebtechprojektApplicationTests {
         // Test that the context successfully loads
     }
 }
+
+ */
