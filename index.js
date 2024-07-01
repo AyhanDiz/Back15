@@ -2,7 +2,7 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const cors = require('cors'); // Hier das 'cors'-Modul einbinden
+const cors = require('cors'); // Stelle sicher, dass cors hier importiert wird
 const PORT = process.env.PORT || 8080;
 
 const app = express();

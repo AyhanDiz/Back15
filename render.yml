@@ -1,0 +1,6 @@
+services:
+  - type: web
+    buildCommand: yarn install
+    startCommand: yarn start
+    env:
+      NODE_ENV: production
